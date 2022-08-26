@@ -421,6 +421,32 @@ img {
   transition: opacity 0.4s;
 }
 
+.program__button i {
+  display: block;
+  transition: 0.3s;
+}
+
+.program__button:hover i {
+  transform: translateX(0.25rem);
+}
+
+.program__card:hover {
+  background-color: var(--first-color);
+  border: 2px solid var(--first-color-light);
+}
+
+.program__card:hover .program__shape {
+  background-color: var(--first-color-light);
+}
+
+.program__card:hover .program__title,
+.program__card:hover .program__description {
+  color: var(--title-color-black);
+}
+
+.program__card:hover .program__button {
+  opacity: 1;
+}
 /*=============== CHOOSE ===============*/
 
 /*=============== PRICING ===============*/
