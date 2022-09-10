@@ -80,7 +80,7 @@ const calculateBmi = (e) => {
   //Check if the fields have a value
   if (calculateCm.value === "" || calculateCm.value === "") {
     //Add and remove color
-    calculateMessage.classList.remove("color-green");
+    calculateMessage.classList.remove("color-violet");
     calculateMessage.classList.add("color-red");
 
     //Show message
@@ -99,13 +99,13 @@ const calculateBmi = (e) => {
     // Show your health status
     if (bmi < 18.5) {
       // Add color and display message
-      calculateMessage.classList.add("color-green");
+      calculateMessage.classList.add("color-violet");
       calculateMessage.textContent = `Your BMI is ${bmi} and you are skinny 😣`;
     } else if (bmi < 25) {
-      calculateMessage.classList.add("color-green");
+      calculateMessage.classList.add("color-violet");
       calculateMessage.textContent = `Your BMI is ${bmi} and you are healthy 🥳`;
     } else {
-      calculateMessage.classList.add("color-green");
+      calculateMessage.classList.add("color-violet");
       calculateMessage.textContent = `Your BMI is ${bmi} and you are overweight 😣`;
     }
 
@@ -125,7 +125,7 @@ calculateForm.addEventListener("submit", calculateBmi);
 
 const contactForm = document.getElementById("contact-form"),
   contactMessage = document.getElementById("contact-message"),
-  contactUser = document.getElementById("conatct-user");
+  contactUser = document.getElementById("contact-user");
 
 const sendEmail = (e) => {
   e.preventDefault();
@@ -133,7 +133,7 @@ const sendEmail = (e) => {
   // Check if the field has a value
   if (contactUser.value === "") {
     // Add and remove color
-    contactMessage.classList.remove("color-green");
+    contactMessage.classList.remove("color-violet");
     contactMessage.classList.add("color-red");
 
     // Show message
@@ -155,7 +155,7 @@ const sendEmail = (e) => {
       .then(
         () => {
           // Show message and add color
-          contactMessage.classList.add("color-green");
+          contactMessage.classList.add("color-violet");
           contactMessage.textContent = "You registered successfully 💪";
 
           // Remove message after three seconds
