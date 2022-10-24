@@ -1,6 +1,6 @@
 # Gym-Website
 
-Have a Look👨‍💻: 
+Have a Look👨‍💻:  https://amandeep4567.github.io/Gym-Website/
 
 ![Screenshot (244)](https://user-images.githubusercontent.com/90441055/197601584-c3aaeb6a-2b12-4a27-adcd-64e4b3aaf9a1.png)
 ![Screenshot (245)](https://user-images.githubusercontent.com/90441055/197601591-8422a435-0662-4861-bad4-4e46e1abfd9a.png)
